@@ -1,0 +1,62 @@
+body{
+    height:100vh;
+    background-image: linear-gradient(rgb(255,255,255), rgba(109,39,239));
+}
+.logo{
+    display: block;
+    margin:auto;
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    border-radius:80px;
+}
+.container{
+    max-width: 955px;
+    border:1px solid black;
+    border-radius:5px;
+    margin:0 auto;
+    height:65vh;
+    padding-top: 8px;
+    overflow-y:auto;
+    margin-bottom:15px;
+}
+.message{
+    background-color: rgb(149, 158, 134);
+    padding: 4px;
+    margin: 7px 18px;
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 5px;
+    scroll-behavior: auto;
+    font-family: monospace;
+    font-size: large;
+}
+#send-container {
+    text-align: center;
+    display: block;
+    margin:  auto;
+    
+}
+#messageInput {
+    margin: 4px -1px;
+    width: 890px;
+    border: 1px solid black;
+    border-radius: 2px;
+    height:33px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    width: 60px;
+    height: 31px;
+    margin: 1px;
+    background: lightgray;
+}
+.left{
+    float:left;
+    clear:both;  
+}
+.right{
+    float:right;
+    clear:both;
+}
